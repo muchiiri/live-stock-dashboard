@@ -1,0 +1,22 @@
+# Setting Up a Virtual Environment for the Live Stock Dashboard
+
+1. Open a terminal and navigate to the app directory:
+   cd app
+
+2. Create a virtual environment (Windows):
+   python -m venv venv
+
+3. Activate the virtual environment:
+   .\venv\Scripts\activate
+
+4. Install dependencies:
+   pip install -r requirements.txt
+
+5. Run the Streamlit app:
+   streamlit run dashboard.py
+
+6. To deactivate the virtual environment when done:
+   deactivate
+
+---
+This ensures all required libraries are installed in an isolated environment, avoiding conflicts with other Python projects.
